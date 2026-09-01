@@ -18,6 +18,7 @@ Copy `.env.example` into the deployment environment and set values there.
 
 - `NEXT_PUBLIC_SITE_URL`: production website URL.
 - `NEXT_PUBLIC_DEMO_ANNUAL_INTEREST_RATE`: required for calculator estimates. The app does not invent a fallback rate.
+- `NEXT_PUBLIC_WEBHOOK_URL`: browser submission endpoint for the direct `no-cors` webhook request.
 - `COMMERCIAL_NAME`: commercial routing name mirrored into the JSON v2 payload.
 - `COMMERCIAL_EMAIL`: commercial routing email mirrored into the JSON v2 payload.
 - `COMMERCIAL_IDENTIFIER`: commercial routing identifier mirrored into the JSON v2 payload.
@@ -36,7 +37,7 @@ The Docker image runs Next.js standalone output with `node server.js`.
 
 ## Webhook
 
-Application submissions post directly from the browser to:
+Application submissions post directly from the browser to `NEXT_PUBLIC_WEBHOOK_URL`:
 
 `https://n8n.srv939555.hstgr.cloud/webhook/submit-forms-curated`
 

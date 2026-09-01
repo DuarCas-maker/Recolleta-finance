@@ -190,7 +190,8 @@ export const disclosureTexts = [
 ];
 
 export const submissionConfig = {
-  webhookUrl: "https://n8n.srv939555.hstgr.cloud/webhook/submit-forms-curated",
+  webhookUrl:
+    process.env.NEXT_PUBLIC_WEBHOOK_URL || "https://n8n.srv939555.hstgr.cloud/webhook/submit-forms-curated",
   formId: "RF-001",
   company: "recolleta",
   source: "recolleta-financial-web",
