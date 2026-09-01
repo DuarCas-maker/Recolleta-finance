@@ -1,0 +1,14 @@
+<svg width="260" height="112" viewBox="0 0 260 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RECOLLETA FINANCIAL</title>
+  <desc id="desc">Recolleta Financial teal monogram and charcoal wordmark</desc>
+  <rect width="260" height="112" fill="white"/>
+  <g transform="translate(90 5)">
+    <path d="M0 0H16V56H0V0Z" fill="#085D54"/>
+    <path d="M21 0H45.5C62.5 0 73.5 10.6 73.5 25.4C73.5 36.5 67 45.1 56.8 48.9L75 56H56.7L39.7 49.2H36V37H45.3C52.3 37 57.2 32.4 57.2 25.8C57.2 19 52.3 14.5 44.8 14.5H21V0Z" fill="#085D54"/>
+    <path d="M21 19.7H37.1C42.7 19.7 46.2 22.5 46.2 26.7C46.2 31 42.7 33.8 37.1 33.8H21V19.7Z" fill="#202C33"/>
+  </g>
+  <text x="130" y="78" text-anchor="middle" fill="#202C33" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="4">RECOLLETA</text>
+  <path d="M18 94H64" stroke="#085D54" stroke-width="1.5"/>
+  <text x="130" y="99" text-anchor="middle" fill="#085D54" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="8">FINANCIAL</text>
+  <path d="M196 94H242" stroke="#085D54" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "appId": "Recolectta",
+  "brandName": "Recolleta Financial",
+  "type": "website",
+  "status": "production-ready-draft",
+  "suggestedDomain": "recolleta-financial.example.com",
+  "deployment": {
+    "platform": "Coolify",
+    "rootDirectory": "apps/Recolectta",
+    "healthEndpoint": "/api/health",
+    "port": 3000
+  },
+  "fundingConfig": {
+    "formId": "RF-001",
+    "company": "recolleta",
+    "source": "recolleta-financial-web",
+    "payloadFormat": "json-v2"
+  }
+}
