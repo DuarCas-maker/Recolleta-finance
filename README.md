@@ -33,7 +33,7 @@ Use Docker deployment from this app folder.
 4. Expose port `3000`.
 5. Use `/api/health` as the health check path.
 
-The Docker image runs Next.js standalone output with `node server.js`.
+The Docker image runs Next.js standalone output with `node server.js`, `PORT=3000`, and `HOSTNAME=0.0.0.0` so Coolify health checks can reach the app inside the container.
 
 ## Webhook
 
